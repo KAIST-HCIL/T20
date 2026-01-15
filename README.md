@@ -4,7 +4,7 @@
 
 This repository contains a Unity integration for **T20**.
 
-`./T20_v1.0/*` includes the `.ino` code and the required libraries for the T20 hardware.
+`./T20_v1.0/*` directory contains the main hardware firmware source code (`.ino`) and the required libraries.
 
 `./T20_v1.0.unitypackage` includes the **T20 Prefab** and the **Demo Scene**.
 The **T20 Prefab** can be conveniently utilized as a building block to design VR interactions using T20, while the **Demo Scene** can function as a reference to interface T20 with your custom VR application.
