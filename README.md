@@ -54,6 +54,10 @@ T20 combines **HMD-based hand tracking** for spatial hand pose estimation with a
 3. Import the **T20 Unity package**
     
     <img src="./Images/4.png" width="150" />
+
+
+4. Upload the `.ino` source code to the hardware
+    - ※ Tested with the `SEEED XIAO NRF52840` board
     
 
 ---
@@ -75,7 +79,7 @@ T20 combines **HMD-based hand tracking** for spatial hand pose estimation with a
 ### 2) Initial configurations for the Play Mode
 
 1. Enter Play Mode
-2. **Device connection**: Select `T20` from Hierarchy > Press `Connect T20` button from the inspector > Wait until the data is updated on the Python console window
+2. **Device connection**: Select `T20` in the Hierarchy > Press `Connect T20` button from the inspector > Power on the T20 hardware and wait for the system co find and connect automatically > Verify that data is streaming in the Python console window
 3. Face forward and press `1` to align the physical front to the VE front
 4. Place T20 in the calibration pose and press `2` to align the coordinate system
 5. Hold the T20 in a power grip and press `3`, then hold in a precision grip and press `4` to set thresholds
