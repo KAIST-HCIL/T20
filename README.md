@@ -4,7 +4,10 @@
 
 This repository contains a Unity integration for **T20**.
 
-The **1) T20 Prefab** can be conveniently utilized as a building block to design VR interactions using T20, while the **2) Demo Scene** can function as a reference to interface T20 with your custom VR application.
+`./T20_v1.0/*` includes the `.ino` code and the required libraries for the T20 hardware.
+
+`./T20_v1.0.unitypackage` includes the **T20 Prefab** and the **Demo Scene**.
+The **T20 Prefab** can be conveniently utilized as a building block to design VR interactions using T20, while the **Demo Scene** can function as a reference to interface T20 with your custom VR application.
 
 The system assumes that natural button interaction while holding T20 is primarily performed by the **thumb, index, and middle fingers**, both ergonomically and practically. Faces oriented towards the palm or the ring/little finger joints are correspondingly disabled as a dead zone to reduce false positives.
 
